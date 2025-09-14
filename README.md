@@ -9,8 +9,8 @@
 
 ```bash
 # Create virtual environment
-python -m venv slack_bot_env
-source slack_bot_env/bin/activate  # On Windows: slack_bot_env\Scripts\activate
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
